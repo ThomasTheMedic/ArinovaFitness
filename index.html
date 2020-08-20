@@ -1,14 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arinova Fitness</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
-    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/index.css">
 
     <style>
         @font-face {
@@ -19,10 +18,10 @@
 
 </head>
 
-<body>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="200">
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
         <a class="navbar-brand" href="#">
-          <img src="images/logo-transparent.png" width="42" height="42" alt="" loading="lazy">
+          <img src="images/logo-transparent.png" alt="" loading="lazy" width="42" height="42">
           <span>ArinovaFitness</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,21 +40,27 @@
         </div>
     </nav>
 
-    <section id="tagline" style="background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('images/image3.jpg') no-repeat center center fixed; background-size: cover; height: 700px;">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-8 col-sm-12">
-                    <div class="p-5 mt-5" style="padding-top: 200px !important;">
-                        <h2 class="font-weight-bold pb-3">Turn your fitness resolutions<br> into a lifestyle</h2>
-                        <a href="#aboutus"><button type="button" class="btn btn-outline-danger btn-lg btn-contactUs">Contact Us</button></a>
-                    </div>
-                </div>
+    <!--background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) ),url('images/image3.jpg') no-repeat center center fixed;-->
+    <div class="py-5 text-white" style="background: url('images/image3.jpg');background-position: center center;background-size: cover;">
+        <section class="min-vh-80 o-hidden d-flex flex-column justify-content-center">
+          <div class="container">
+            <div class="row justify-content-center text-center align-items-center">
+              <div class="col-xl-8 col-lg-9 col-md-10 layer-3 aos-init aos-animate py-5 my-5" data-aos="fade-up" data-aos-delay="500">
+                <h1 class="display-4 mb-5" style="font-weight: 600;">
+                    Turn your fitness resolutions
+                    <br>
+                    into a lifestyle
+                </h1>
+                <a href="#aboutus"><button type="button" class="btn btn-outline-light">Contact Us</button></a>
+              </div>
             </div>
-        </div>
-    </section>
+          </div>
+        </section>
+        
+      </div>
 
 
-    <section id="services" class="py-5" style="background-color: #2c2a2ad6">
+    <section id="services" class="py-5" style="background-color: black">
         <div class="container-fluid">
             <div class="row">
                 <div class="text-white px-3">
@@ -72,9 +77,9 @@
                     <div class="card h-100 text-center p-4">
                         <div class="text-center">
                             <svg width="32" height="32" viewBox="0 0 16 16" class="bi bi-door-closed" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2zm1 0v13h8V2H4z"/>
-                                <path d="M7 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
-                                <path fill-rule="evenodd" d="M1 15.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"/>
+                                <path fill-rule="evenodd" d="M3 2a1 1 0 0 1 1-1h8a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2zm1 0v13h8V2H4z"></path>
+                                <path d="M7 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"></path>
+                                <path fill-rule="evenodd" d="M1 15.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5z"></path>
                             </svg>
                         </div>
                         <h4 class="font-weight-bold pt-2">Door to door personal training</h4>
@@ -88,7 +93,7 @@
                     <div class="card h-100 text-center p-4">
                         <div class="text-center">
                             <svg width="32" height="32" viewBox="0 0 16 16" class="bi bi-globe" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M1.018 7.5h2.49c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5zM2.255 4H4.09a9.266 9.266 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.024 7.024 0 0 0 2.255 4zM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm-.5 1.077c-.67.204-1.335.82-1.887 1.855-.173.324-.33.682-.468 1.068H7.5V1.077zM7.5 5H4.847a12.5 12.5 0 0 0-.338 2.5H7.5V5zm1 2.5V5h2.653c.187.765.306 1.608.338 2.5H8.5zm-1 1H4.51a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm1 2.5V8.5h2.99a12.495 12.495 0 0 1-.337 2.5H8.5zm-1 1H5.145c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12zm-2.173 2.472a6.695 6.695 0 0 1-.597-.933A9.267 9.267 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM1.674 11H3.82a13.651 13.651 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm8.999 3.472A7.024 7.024 0 0 0 13.745 12h-1.834a9.278 9.278 0 0 1-.641 1.539 6.688 6.688 0 0 1-.597.933zM10.855 12H8.5v2.923c.67-.204 1.335-.82 1.887-1.855A7.98 7.98 0 0 0 10.855 12zm1.325-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm.312-3.5h2.49a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.91 4a9.277 9.277 0 0 0-.64-1.539 6.692 6.692 0 0 0-.597-.933A7.024 7.024 0 0 1 13.745 4h-1.834zm-1.055 0H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z"/>
+                                <path fill-rule="evenodd" d="M1.018 7.5h2.49c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5zM2.255 4H4.09a9.266 9.266 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.024 7.024 0 0 0 2.255 4zM8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0zm-.5 1.077c-.67.204-1.335.82-1.887 1.855-.173.324-.33.682-.468 1.068H7.5V1.077zM7.5 5H4.847a12.5 12.5 0 0 0-.338 2.5H7.5V5zm1 2.5V5h2.653c.187.765.306 1.608.338 2.5H8.5zm-1 1H4.51a12.5 12.5 0 0 0 .337 2.5H7.5V8.5zm1 2.5V8.5h2.99a12.495 12.495 0 0 1-.337 2.5H8.5zm-1 1H5.145c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12zm-2.173 2.472a6.695 6.695 0 0 1-.597-.933A9.267 9.267 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM1.674 11H3.82a13.651 13.651 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5zm8.999 3.472A7.024 7.024 0 0 0 13.745 12h-1.834a9.278 9.278 0 0 1-.641 1.539 6.688 6.688 0 0 1-.597.933zM10.855 12H8.5v2.923c.67-.204 1.335-.82 1.887-1.855A7.98 7.98 0 0 0 10.855 12zm1.325-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm.312-3.5h2.49a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5zM11.91 4a9.277 9.277 0 0 0-.64-1.539 6.692 6.692 0 0 0-.597-.933A7.024 7.024 0 0 1 13.745 4h-1.834zm-1.055 0H8.5V1.077c.67.204 1.335.82 1.887 1.855.173.324.33.682.468 1.068z"></path>
                             </svg>
                         </div>
                         <h4 class="font-weight-bold pt-2">Group training at popular hotspots</h4>
@@ -102,7 +107,7 @@
                     <div class="card h-100 text-center p-4">
                         <div class="text-center">
                             <svg width="32" height="32" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                                <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path>
                             </svg>
                         </div>
                         <h4 class="font-weight-bold pt-2">Online <br> Training</h4>
@@ -116,7 +121,7 @@
                     <div class="card h-100 text-center p-4">
                         <div class="text-center">
                             <svg width="32" height="32" viewBox="0 0 16 16" class="bi bi-people-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+                                <path fill-rule="evenodd" d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"></path>
                             </svg>
                         </div>
                         <h4 class="font-weight-bold pt-2">24/7 live online personal coaching</h4>
@@ -212,9 +217,20 @@
 
             <div class="row">
                 <div class="col-sm-12">
-                    <div id="customers-testimonials" class="owl-carousel">
+                    <div id="customers-testimonials" class="owl-carousel owl-loaded owl-drag">
                         <!--TESTIMONIAL 1 -->
-                        <div class="item">
+                        
+                        <!--Testimonial 2-->
+                        
+                    <div class="owl-stage-outer"><div class="owl-stage" style="transition: all 0s ease 0s; width: 2960px; transform: translate3d(-740px, 0px, 0px);"><div class="owl-item cloned" style="width: 370px;"><div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                                 <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                            </div>
+                            <div class="testimonial-name">
+                                EMILIANO AQUILANI
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 370px;"><div class="item">
                             <div class="shadow-effect">
                                 <img class="img-circle" src="images/testimonial1.jpeg" alt="">
                                  <p>Thank you Luther for your support and encouragement. 
@@ -224,9 +240,7 @@
                                      I am very thankful for your personal support. 
                                      It's nice to not feel like anyone is judging like it can happen at the gym</p>
                             </div>
-                        </div>
-                        <!--Testimonial 2-->
-                        <div class="item">
+                        </div></div><div class="owl-item cloned active" style="width: 370px;"><div class="item">
                             <div class="shadow-effect">
                                 <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
                                  <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
@@ -234,14 +248,59 @@
                             <div class="testimonial-name">
                                 EMILIANO AQUILANI
                             </div>
-                        </div>
-                    </div>
+                        </div></div><div class="owl-item active center" style="width: 370px;"><div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="images/testimonial1.jpeg" alt="">
+                                 <p>Thank you Luther for your support and encouragement. 
+                                     You managed to make training enjoyable and attainable. 
+                                     Thank you for outlining an exercise program just for me. 
+                                     I am finally seeing results! My body feels great. 
+                                     I am very thankful for your personal support. 
+                                     It's nice to not feel like anyone is judging like it can happen at the gym</p>
+                            </div>
+                        </div></div><div class="owl-item active" style="width: 370px;"><div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                                 <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                            </div>
+                            <div class="testimonial-name">
+                                EMILIANO AQUILANI
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 370px;"><div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="images/testimonial1.jpeg" alt="">
+                                 <p>Thank you Luther for your support and encouragement. 
+                                     You managed to make training enjoyable and attainable. 
+                                     Thank you for outlining an exercise program just for me. 
+                                     I am finally seeing results! My body feels great. 
+                                     I am very thankful for your personal support. 
+                                     It's nice to not feel like anyone is judging like it can happen at the gym</p>
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 370px;"><div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="http://themes.audemedia.com/html/goodgrowth/images/testimonial3.jpg" alt="">
+                                 <p>Dramatically maintain clicks-and-mortar solutions without functional solutions. Completely synergize resource taxing relationships via premier niche markets. Professionally cultivate.</p>
+                            </div>
+                            <div class="testimonial-name">
+                                EMILIANO AQUILANI
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 370px;"><div class="item">
+                            <div class="shadow-effect">
+                                <img class="img-circle" src="images/testimonial1.jpeg" alt="">
+                                 <p>Thank you Luther for your support and encouragement. 
+                                     You managed to make training enjoyable and attainable. 
+                                     Thank you for outlining an exercise program just for me. 
+                                     I am finally seeing results! My body feels great. 
+                                     I am very thankful for your personal support. 
+                                     It's nice to not feel like anyone is judging like it can happen at the gym</p>
+                            </div>
+                        </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
                 </div>
             </div>
         </div>
     </section>
 
-    <div id="contactUs" class="py-5" style="background:#2c2a2ad6;">
+    <div id="contactUs" class="py-5" style="background-image: linear-gradient(141deg, #9fb8ad 0%, #930c2c 51%, #424344 75%);">
         <div class="container">
             <div class="border rounded-lg p-4 shadow-lg p-3 m-5 bg-white">
                 <div class="row">
@@ -326,5 +385,5 @@
         delay: 200, // values from 0 to 3000, with step 50ms
       });
     </script>
-</body>
-</html>
+
+</body></html>
